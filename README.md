@@ -11,7 +11,7 @@ This means that **all the processing is done locally on your machine**, **your v
 and you save bandwith by not having to upload and download the videos (only data needed is the visual interface and the ffmpeg.wasm binary,
 which amounts to a total of about 10mb that is only downloaded the first time you use SmoothieVid).
 FFmpeg by itself, however, does not support video stabilization, for that it has to be extended with [vid.stab](https://github.com/georgmartius/vid.stab),
-which is why SmoothieVid uses a [custom ffmpeg.wasm-core](https://github.com/Willy-JL/ffmpeg.wasm-vidstab/) with that built in.
+which is why SmoothieVid uses a [custom ffmpeg.wasm-core](https://github.com/WillyJL/ffmpeg.wasm-vidstab/) with that built in.
 
 ## Thanks:
 
